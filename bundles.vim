@@ -28,7 +28,6 @@ Bundle 'ervandew/supertab'
 
 " Languages
 Bundle 'vim-ruby/vim-ruby'
-Plugin 'fatih/vim-go'
 
 " Colors
 Bundle 'altercation/vim-colors-solarized'
