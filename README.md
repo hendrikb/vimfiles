@@ -1,7 +1,7 @@
 vim Installation
 ==
 
-Note: This is the lightweight distribution of my vimfiles. I mainly use it on my raspberry, and since I do not need most of the full features plugins nor latest features, this is a stripped down configuration. Nevertheless, I did not adjust complile settings for this, therefor this is actually Work In Progress, but can be used as a good starting point
+Note: This is the lightweight distribution of my vimfiles. I mainly use it on my raspberry, and since I do not need most of the full featured plugins nor latest features, this is a stripped down configuration. Nevertheless, I did not adjust complile settings for this, therefor this is actually Work In Progress, but can be used as a good starting point
 
 Prerequisites (on Ubuntu & Linux Mint)
 ---
