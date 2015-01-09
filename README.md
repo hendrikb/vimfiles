@@ -1,5 +1,8 @@
 vim Installation
 ==
+
+Note: This is the lightweight distribution of my vimfiles. I mainly use it on my raspberry, and since I do not need most of the full features plugins nor latest features, this is a stripped down configuration. Nevertheless, I did not adjust complile settings for this, therefor this is actually Work In Progress, but can be used as a good starting point
+
 Prerequisites (on Ubuntu & Linux Mint)
 ---
 ```
@@ -38,7 +41,7 @@ Install vim configuration
 ---
 
 ```
-git clone --branch=master https://github.com/hendrikb/vimfiles.git ~/.vim
+git clone --branch=lightweight https://github.com/hendrikb/vimfiles.git ~/.vim
 cp ~/.vimrc ~/.vimrc.old ; ln -sf ~/.vim/vimrc ~/.vimrc
 git clone https://github.com/gmarik/Vundle.vim.git ~/.vim/bundle/Vundle.vim
 cd ~/.vim
