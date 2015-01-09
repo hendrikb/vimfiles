@@ -90,7 +90,7 @@ cnoremap sudow w !sudo tee % >/dev/null
 " Syntax
 "  ---------------------------------------------------------------------------
 
-syntax enable
+" syntax enable
 set hlsearch
 
 autocmd BufNewFile,BufReadPost *.md set filetype=markdown
