@@ -3,5 +3,8 @@ let g:airline_theme='badwolf'
 set laststatus=2
 let g:airline#extensions#tabline#enabled = 1
 
+ let g:airline_section_y = airline#section#create(['ffenc', ' @%{strftime("%H:%M")}'])
+
+
 let g:airline#extensions#branch#enabled = 1
 let g:airline#extensions#branch#displayed_head_limit = 20
