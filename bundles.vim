@@ -26,6 +26,7 @@ Bundle 'tpope/vim-repeat'
 Bundle 'tpope/vim-surround'
 Bundle 'saevarb/chronos'
 Bundle 'scrooloose/syntastic'
+Bundle 'scrooloose/nerdtree'
 Bundle 'ervandew/supertab'
 
 " Languages
