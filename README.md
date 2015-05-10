@@ -1,11 +1,23 @@
 vim Installation
 ==
-Prerequisites (on Ubuntu & Linux Mint)
+Prerequisites 
 ---
+
+on Ubuntu & Linux Mint ...
+
 ```
-sudo apt-get install libpython3-dev libpython-dev libperl-dev libruby2.0 curl libx11-dev libxtst-dev libx11-dev libxtst-dev libxt-dev libsm-dev libxpm-dev ruby-dev libncurses5-dev git mercurial terminator
+sudo apt-get install libpython3-dev libpython-dev libperl-dev libruby2.0 curl libx11-dev libxtst-dev libx11-dev libxt-dev libsm-dev libxpm-dev ruby-dev libncurses5-dev git mercurial terminator
 ```
-You will need to use a good terminal emulator, such as terminator.
+
+on Arch Linux ...
+
+```
+sudo pacman -S git mercurial terminator ruby
+```
+All other given dependencies seem to be satisfied by a clean default install of Arch Linux (only tried it once). Please be aware, that installing ruby via pacman can interfere with ruby environment changers like http://rvm.io
+
+
+You will need to use a good terminal emulator, such as terminator - we basically installed that for you.
 
 Install vim
 ---
