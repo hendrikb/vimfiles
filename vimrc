@@ -5,6 +5,18 @@ let g:mapleader = ","
 
 set nocompatible
 
+" Disable F1 Key in Insert Mode
+inoremap <F1> <Esc>
+noremap <F1> :call MapF1()<CR>
+
+function! MapF1()
+  if &buftype == "help"
+    exec 'quit'
+  else
+    exec 'help'
+  endif
+endfunction
+
 "  ---------------------------------------------------------------------------
 "  UI
 "  ---------------------------------------------------------------------------
