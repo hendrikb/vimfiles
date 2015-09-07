@@ -31,6 +31,7 @@ Bundle 'ervandew/supertab'
 
 " Languages
 Bundle 'vim-ruby/vim-ruby'
+Bundle 'tpope/vim-rvm'
 Bundle 'fatih/vim-go'
 Bundle 'kchmck/vim-coffee-script'
 Bundle 'lervag/vim-latex'
