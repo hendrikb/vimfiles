@@ -6,13 +6,13 @@ Prerequisites
 on Ubuntu & Linux Mint ...
 
 ```
-sudo apt-get install libpython3-dev libpython-dev libperl-dev libruby2.0 curl libx11-dev libxtst-dev libx11-dev libxt-dev libsm-dev libxpm-dev ruby-dev libncurses5-dev git mercurial terminator
+sudo apt-get install libpython3-dev libpython-dev libperl-dev libruby2.0 curl libx11-dev libxtst-dev libx11-dev libxt-dev libsm-dev libxpm-dev ruby-dev libncurses5-dev git terminator
 ```
 
 on Arch Linux ...
 
 ```
-sudo pacman -S git mercurial terminator ruby
+sudo pacman -S git terminator ruby
 ```
 All other given dependencies seem to be satisfied by a clean default install of Arch Linux (only tried it once). Please be aware, that installing ruby via pacman can interfere with ruby environment changers like http://rvm.io
 
@@ -28,13 +28,12 @@ Install vim
 mkdir ~/code
 cd ~/code
 
-hg clone https://vim.googlecode.com/hg/ vim
+git clone https://github.com/vim/vim.git vim
 cd vim
 
 # do regularly
 cd ~/code/vim
-hg pull
-hg update
+git pull
 make distclean
 ./configure --with-x --enable-fail-if-missing --enable-rubyinterp=dynamic --enable-multibyte --enable-fontset --enable-gui=gtk2 --enable-gtk2-check --enable-gnome-check --enable-motif-check --with-features=huge --with-compiledby=Hendrik Bergunde --with-gnome --enable-pythoninterp=dynamic --enable-python3interp=dynamic --enable-perlinterp=yes
 make
