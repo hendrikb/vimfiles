@@ -28,6 +28,7 @@ Bundle 'saevarb/chronos'
 Bundle 'scrooloose/syntastic'
 Bundle 'scrooloose/nerdtree'
 Bundle 'ervandew/supertab'
+Bundle 'szw/vim-tags'
 
 " Languages
 Bundle 'vim-ruby/vim-ruby'
