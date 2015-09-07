@@ -8,7 +8,7 @@ call vundle#begin()
 "call vundle#begin('~/some/path/here')
 
 " let Vundle manage Vundle, required
-Plugin 'gmarik/Vundle.vim'
+Bundle 'gmarik/Vundle.vim'
 Bundle 'rking/ag.vim.git'
 
 
@@ -31,9 +31,9 @@ Bundle 'ervandew/supertab'
 
 " Languages
 Bundle 'vim-ruby/vim-ruby'
-Plugin 'fatih/vim-go'
+Bundle 'fatih/vim-go'
 Bundle 'kchmck/vim-coffee-script'
-Plugin 'lervag/vim-latex'
+Bundle 'lervag/vim-latex'
 
 " Colors
 Bundle 'altercation/vim-colors-solarized'
