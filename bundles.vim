@@ -36,6 +36,7 @@ Bundle 'tpope/vim-rvm'
 Bundle 'fatih/vim-go'
 Bundle 'kchmck/vim-coffee-script'
 Bundle 'lervag/vim-latex'
+Bundle 'neo4j-contrib/cypher-vim-syntax'
 
 " Colors
 Bundle 'altercation/vim-colors-solarized'
