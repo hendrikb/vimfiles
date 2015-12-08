@@ -28,6 +28,7 @@ Bundle 'scrooloose/syntastic'
 Bundle 'scrooloose/nerdtree'
 Bundle 'ervandew/supertab'
 Bundle 'szw/vim-tags'
+Bundle 'thoughtbot/vim-rspec'
 
 " Languages
 Bundle 'vim-ruby/vim-ruby'
