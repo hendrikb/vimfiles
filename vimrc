@@ -1,5 +1,3 @@
-silent! runtime bundles.vim
-
 let mapleader = ","
 let g:mapleader = ","
 
