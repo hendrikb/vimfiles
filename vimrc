@@ -88,7 +88,7 @@ if has("autocmd")
 endif
 
 " Ignore some binary, versioning and backup files when auto-completing
-set wildignore=,.git,*.swp,*.jpg,*.png,*.gif,*.pdf,*.bak,*.tmp,*/doc/*,*/coverage/*,*.run.xml,*.bcf,*.bbl,*.blg,*.aux,*.out
+set wildignore=.svn,CVS,.git,*.swp,*.jpg,*.png,*.gif,*.pdf,*.bak
 set backupdir=~/tmp,/tmp
 set undodir=~/.vim/.tmp,~/tmp,~/.tmp,/tmp
 set dir=/tmp
