@@ -1,4 +1,9 @@
 silent! runtime bundles.vim
+"
+filetype plugin on
+
+" OPTIONAL: This enables automatic indentation as you type.
+filetype indent on
 
 let mapleader = ","
 let g:mapleader = ","
