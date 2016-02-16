@@ -41,6 +41,7 @@ Bundle 'neo4j-contrib/cypher-vim-syntax'
 
 " Colors
 Bundle 'altercation/vim-colors-solarized'
+Bundle 'vim-airline/vim-airline-themes'
 
 
 
