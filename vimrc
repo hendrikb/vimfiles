@@ -115,4 +115,7 @@ set hlsearch
 
 autocmd BufNewFile,BufReadPost *.md set filetype=markdown
 autocmd BufNewFile,BufReadPost *.tex set wrap linebreak nolist
-autocmd BufRead,BufNewFile Gemfile,Rakefile,Thorfile,config.ru,[Vv]agrantfile,Guardfile,Capfile set filetype=ruby
+autocmd BufRead,BufNewFile Rakefile,Thorfile,config.ru,[Vv]agrantfile,Guardfile,Capfile set filetype=ruby
+
+autocmd Filetype Gemfile set syntax=ruby
+autocmd BufRead,BufNewFile Gemfile set filetype=Gemfile
