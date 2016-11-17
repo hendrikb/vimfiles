@@ -44,6 +44,7 @@ Bundle 'pearofducks/ansible-vim'
 
 " Colors
 Bundle 'altercation/vim-colors-solarized'
+Bundle 'rakr/vim-one'
 Bundle 'vim-airline/vim-airline-themes'
 
 
