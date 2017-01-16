@@ -40,6 +40,7 @@ Bundle 'kchmck/vim-coffee-script'
 Bundle 'lervag/vim-latex'
 Bundle 'neo4j-contrib/cypher-vim-syntax'
 Bundle 'cespare/vim-toml'
+Bundle 'pearofducks/ansible-vim'
 
 " Colors
 Bundle 'altercation/vim-colors-solarized'
