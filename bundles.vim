@@ -41,6 +41,7 @@ Bundle 'lervag/vim-latex'
 Bundle 'neo4j-contrib/cypher-vim-syntax'
 Bundle 'cespare/vim-toml'
 Bundle 'pearofducks/ansible-vim'
+Bundle 'slim-template/vim-slim'
 
 " Colors
 Bundle 'altercation/vim-colors-solarized'
